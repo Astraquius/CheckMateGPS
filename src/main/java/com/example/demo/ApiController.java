@@ -8,6 +8,6 @@ public class ApiController {
 
     @GetMapping("/api/button")
     public String buttonAction() {
-        return "Button clicked on server!";
+        return "Button clicked on server!"; 
     }
 }
